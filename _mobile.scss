@@ -1,0 +1,148 @@
+@media (max-width: 767px) {
+    .header_input{
+        display: none;
+    }
+    .menu_mobile{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    } 
+    .center {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+    .logo {
+        width: 99px;
+    }
+    .title_index {
+    display: none;
+    }
+    .title-catalog{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        width: 343px;
+        margin-top: 100px;
+    }
+    .title_menu{
+        display: block;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        margin-top: 64px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .top_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        text-align: center; 
+    }
+    .title-2{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .for{
+        padding-top: 32px;
+    }
+    .for-item {
+        font-size: 28px;
+        line-height: 34px;
+    }
+        .for-content{
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+        .for-item-big{
+            grid-column: span 4;
+        }
+
+    .product {
+        width: 100%;
+    }
+    .product__img-img{
+        height: 225px;
+    }
+    .footer{
+        margin-top: 32px;
+    }
+    .footer-info{
+        gap: 100px;
+    }
+    .footer-content{
+        gap: 34px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-form{
+        align-items: center;
+        width: 100%;
+    }
+.product-box{
+    padding-top: 48px;
+}
+.header{
+    border:none;
+    padding-top: 32px;
+}
+.bar_catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+.title-3{
+    font-size: 18px;
+    line-height: 22px;  
+}
+.price{
+    font-size: 18px;
+    line-height: 22px;
+}
+.cart{
+    padding-top: 100px;
+}
+.cart__head{
+    display: none;
+}
+.cart-item{
+    padding-top: 18px;
+    gap: 0px;
+}
+.img_cart{
+    display: none;
+}
+.desc{
+    width: 254px;
+}
+.desc_cart{
+  width: 344px;  
+}
+.button-cart{
+    gap: 14px;
+}
+.button-cart-self{
+    width: 166px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 0px;
+}
+.cart__form{
+    margin-top: 16px;
+    width: 100vw;
+}
+.input-cart{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cart-form-bay{
+    gap: 18px;
+}
+}
+

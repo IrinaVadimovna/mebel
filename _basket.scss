@@ -1,0 +1,218 @@
+.top_cart{
+    background-image: url(img/cart_head.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cart{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+    padding-top: 64px;
+}
+.cart__head{
+    display: flex;
+    justify-content: space-between;
+}
+.cart__form{
+    background: #F7F6F6;
+    border-radius: 20px;
+    padding-top: 42px;
+    padding-left: 27px;
+    padding-right: 30px;
+    height: 556px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-bottom: 32px;
+    border-top:  0.5px solid #CACDD8;
+}
+.cart-item__info{
+    width: 276px;
+}
+.cart-item__content{
+    display: flex;
+    gap: 32px;
+}
+
+.cart-item__info{
+    display: grid;
+    gap: 15px;
+}
+.cart-item__links{
+    display: flex;
+    gap: 30px;
+}
+.button-cart{
+    display: flex;
+    gap: 16px;
+
+}
+.button-cart-self {
+    width: 200px;
+    height: 37px;
+    margin-right: 8px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: transparent;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;        
+    color: #000000;    
+    transition: all 0.3s;
+    &:hover{
+        background: #000000;
+        color: #FFFFFF;
+        text-decoration: none;
+    }  
+}
+
+.h-form{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+.input-cart{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 44px;
+    padding-top: 32px;
+    padding-left: 25px;
+    padding-right: 64px;
+    box-sizing: border-box;
+}
+.input-cart-self{
+    background: transparent;
+    line-height: 17px; 
+    border-bottom: 1px solid #CACDD8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-family: inherit;
+}
+.input-cart-self::-moz-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.input-cart-self::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.h-form-finish{
+    padding-top: 64px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline;
+}
+.itog{
+    display: inline;
+    font-size: 24px;
+    font-weight: lighter;
+    display: inline;
+}
+.itog_price{
+    display: inline;
+    font-weight: bold;
+    
+}
+.button-form{
+    width: 288px;
+    height: 37px;
+    margin-right: 8px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: transparent;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;        
+    color: #000000;
+    transition: all 0.3s;
+    &:hover{
+        animation:vibrate-1 .3s linear infinite both
+    }
+}
+.cart-form-bay{
+    display: grid;
+    gap: 28px;
+    justify-content: center;
+}
+.title-3-form{
+    font-weight: lighter;
+}
+.cart-item__count{
+    background: #F7F6F6;
+    border-radius: 6px;
+    width: 71px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.cart-item-coin-input{
+    width: 42px;
+    height: 16px;
+    padding-left: 17px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-family:inherit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 210%;
+    color: #000000;
+    appearance: none;
+    box-sizing: border-box;
+    -moz-appearance: textfield;
+}
+.cart-item-coin-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.cart-item-coin-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+.cart-item-coin-arrows{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.cart-item-coin-arrows_arrows{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background: transparent;
+}
+.img_cart{
+    height: 174px;
+    object-fit: cover;
+}
+@import 'animation'
